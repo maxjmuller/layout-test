@@ -11,6 +11,12 @@ body {
 .container {
   padding-right: 15px;
   padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container div {
+  box-sizing: border-box;
 }
 
 h1{
@@ -20,22 +26,34 @@ h1{
 .header {
   background-color: #DDDDDD;
   line-height: 1.2;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .menu {
   background-color: #CC9998;
   line-height: 1.5;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content {
+  background-color: #9999CD;
+  overflow: hidden;
 }
 
 .column1 {
   float: left;
   width: 67%;
   background-color: #9ACC99;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .column2 {
   float: left;
   width: 33%;
   background-color: #9999CD;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
