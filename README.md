@@ -1,32 +1,27 @@
 # _Layout-Test_
 
-##### _{Brief description of application}, {Date of current version}_
+##### _Simple 2 column web-page layout using HTML and CSS, September, 18 2015_
 
-#### By _**{List of contributors}**_
+#### By **_Max Muller_**
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+I created this brief website for the second code review of my Intro to Programming Class at Epicodus. It demonstrates a simple 2 column web-page layout using HTML and CSS.
 
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+* Visit [http://maxjmuller.github.io/layout-test](http://maxjmuller.github.io/about-max-muller) to view the page.
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* HTML
+* CSS
+* I used nested divs with "overflow: hidden;" property to create equal length columns.
+* I used the "box-sizing: border-box;" property to prevent relatively-sized columns with padding from stacking on top of each other.
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_Max Muller_**
 
 This software is licensed under the MIT license.
 
