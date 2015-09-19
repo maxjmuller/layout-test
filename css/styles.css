@@ -1,0 +1,41 @@
+
+body {
+  background-color: #A8A19B;
+}
+
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h1{
+  margin: 0
+}
+
+.header {
+  background-color: #DDDDDD;
+  line-height: 1.2;
+}
+
+.menu {
+  background-color: #CC9998;
+  line-height: 1.5;
+}
+
+.column1 {
+  float: left;
+  width: 67%;
+  background-color: #9ACC99;
+}
+
+.column2 {
+  float: left;
+  width: 33%;
+  background-color: #9999CD;
+
+}
